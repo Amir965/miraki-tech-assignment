@@ -3,39 +3,39 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectImage = [
   {
-    id: 1,
+    id: "1",
     image: "/projects/project1.jpg",
-    number: 23,
+    number: "23",
     title: "RESIDENTIAL PROJECTS",
   },
   {
-    id: 2,
+    id: "2",
     image: "/projects/project2.jpg",
-    number: 234,
+    number: "234",
     title: "ONGOING PROJECTS",
   },
   {
-    id: 3,
+    id: "3",
     image: "/projects/project3.jpg",
-    number: 123,
+    number: "123",
     title: "COMMERCIAL PROJECTS",
   },
   {
-    id: 4,
+    id: "4",
     image: "/projects/project4.jpg",
-    number: 253,
+    number: "253",
     title: "CONSUMER PROJECTS",
   },
   {
-    id: 5,
+    id: "5",
     image: "/projects/project5.jpg",
-    number: 50,
+    number: "50",
     title: "INSURANCE PROJECTS",
   },
   {
-    id: 6, 
+    id: "6", 
     image: "/projects/project6.jpg", 
-    number: 53,
+    number: "53",
     title: "RENTAL PROJECTS",
   },
 ];

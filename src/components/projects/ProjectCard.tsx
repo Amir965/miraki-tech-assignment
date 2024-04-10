@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react"
 
 interface ImageData{
+    id: string;
     image: string;
     number: string;
     title: string;
