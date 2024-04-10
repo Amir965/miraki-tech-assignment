@@ -2,7 +2,8 @@
 
 import Image from "next/image";
 import React, { useState } from "react";
-
+import { FaArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowAltCircleLeft } from "react-icons/fa";
 interface ImageData {
   src: string;
   title: string;
@@ -89,14 +90,14 @@ const TeamCarousel: React.FC<CarouselProps> = ({ images }) => {
           onClick={handlePrev}
           disabled={startIndex === 0}
         >
-          Prev
+          <FaArrowAltCircleRight size={25} color="gray" className="" />
         </button>
         <button
           className="ml-2 cursor-pointer"
           onClick={handleNext}
           disabled={startIndex === images.length - 5}
         >
-          Next
+          <FaArrowAltCircleLeft size={25} color="gray" className="" />
         </button>
       </div>
     </div>
