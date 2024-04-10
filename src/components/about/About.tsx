@@ -94,7 +94,7 @@ const About = () => {
             <span className="w-[30%] text-[15px] text-[#9d9b9b] font-bold">
               Founded by visionary architects with a shared desire to redefine
               the boundaries of architecture, Crave Architecture Studio was
-              established in 2017. From our humble beginning, we've grown into a
+              established in 2017. From our humble beginning, we have grown into a
               dynamic, multidisciplinary team of design enthusiasts who
               constantly push the envelope of creativity and innovation.
             </span>
