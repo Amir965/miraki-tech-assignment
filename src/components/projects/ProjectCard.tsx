@@ -17,12 +17,12 @@ const ProjectCard:React.FC<ProjectProps> = ({ProjectImage}) => {
       {/* Each Project Card */}
       {ProjectImage.map((item, index) => (
         <div key={index} className="mb-4">
-          <img
+          <Image
             src={item.image}
             alt={item.title}
-            // width={250}
-            // height={250}
-            className="object-cover w-40 h-40 sm:w-55 sm:h-55"
+            width={250}
+            height={250}
+            className="project-image"
           />
           <div className="flex flex-col mt-[-15px] ml-4 w-[60%]">
             <span className="font-bold text-[#B2FFB7] text-xl">

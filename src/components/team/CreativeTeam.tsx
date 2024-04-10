@@ -56,7 +56,7 @@ const CreativeTeam: React.FC = () => {
   return (
     <div className="pt-6 " id="team">
       <Separator />
-      <div className="pl-4 pr-4 lg:pl-20 lg:pr-20">
+      <div className="pl-4 pr-4 lg:pl-20 lg:pr-18">
         <div className="mb-4 lg:mb-0 mt-10">
           <span className="bg-[#B2FFB7] rounded-full inline-block p-3 "></span>
           &nbsp;&nbsp;&nbsp;

@@ -35,7 +35,9 @@ body {
 .featured-image{
   height: 400px !important;
 }
-
+.project-image{
+  height: 200px !important;
+}
 .header-section{
   background-image: url("/nav/header-image.jpg");
   background-size: cover;
@@ -55,9 +57,7 @@ body {
 }
 
 @media screen and (max-width:575px) {
-  /* .header-section{
-    height: auto;
-  } */
+  
  .header-section,.cta-section{
       height: 400px;
     }

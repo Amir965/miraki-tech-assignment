@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { FaArrowAltCircleRight } from "react-icons/fa";
 const Footer = () => {
   return (
     <div className="bg-[#B2FFB7]">
@@ -69,8 +69,13 @@ const Footer = () => {
               placeholder="EMAIL ADDRESS"
               className="text-[10px] w-full lg:w-auto h-9 rounded-sm pt-2 pb-2 pl-2 pr-2 bg-[#B2FFB7] border border-black"
             />
-            <button className=" mt-2   absolute right-[30px] lg:right-[28%]">
-              Submit
+
+            <button className=" mt-[-2px]   absolute right-[20px] lg:right-[28%]">
+              <FaArrowAltCircleRight
+                size={25}
+                color="gray"
+                className="mt-2   absolute right-[30px] lg:right-[28%]"
+              />
             </button>
           </div>
         </div>

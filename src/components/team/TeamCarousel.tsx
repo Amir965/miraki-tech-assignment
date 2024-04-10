@@ -49,9 +49,11 @@ const TeamCarousel: React.FC<CarouselProps> = ({ images }) => {
             onMouseEnter={() => handleMouseEnter(startIndex + index)}
             onMouseLeave={handleMouseLeave}
           >
-            <img
+            <Image
               src={image.src}
               alt={image.title}
+              width={200}
+              height={200}
               className={`object-cover w-40 h-40 sm:w-55 sm:h-55 transition-transform duration-300 ${
                 hoverIndex === startIndex + index ? "scale-150" : "scale-100"
               }`}
